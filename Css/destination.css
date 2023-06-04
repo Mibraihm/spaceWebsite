@@ -1,0 +1,73 @@
+/* ...............  Header Styling ................... */
+
+#container {
+  height: 100svh;
+  width: 100%;
+  position: fixed;
+  background: url(../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+/* /////////////////// left STYLING ////////////// */
+
+.leftHeading {
+  margin: 2rem 0;
+}
+
+/* /////////////////// right STYLING ////////////// */
+
+/* /////////////////// LIST STYLING ////////////// */
+
+.destinationList {
+  /* background-color: red; */
+  padding: 1rem 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.destList {
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+/* ................ Text Container Styling/............. */
+
+.textContainer {
+  /* margin: 3rem 0; */
+  /* background-color: lightcyan; */
+  padding: 1em 0.4em;
+}
+
+.planet {
+  margin-bottom: 10px;
+  /* background-color: gray; */
+}
+
+.planetDetails {
+  line-height: 120%;
+  /* background-color: yellow; */
+  width: 80%;
+  /* margin-bottom: 10px; */
+  padding-bottom: 2rem;
+  border-bottom: 2px solid white;
+}
+
+.distance {
+  /* margin-top: 10px; */
+  padding: 2rem 0;
+  justify-content: space-around;
+}
+
+.texts {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.destImage {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.384);
+  border-radius: 50%;
+}

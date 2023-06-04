@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/main.css" />
+    <link rel="stylesheet" href="../Css/destination.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="container">
+      <nav id="navbar">
+        <div class="logo">
+          <img src="../assets/shared/logo.svg" alt="Logo" />
+        </div>
+
+        <ul class="navList">
+          <li class="list">
+            <a href="../Html/home.html" class="item"
+              ><span class="white-clr">00</span>HOME</a
+            >
+          </li>
+          <li class="list active">
+            <a href="../Html/destination.html" class="item"
+              ><span class="white-clr">01</span>DESTINATION</a
+            >
+          </li>
+          <li class="list">
+            <a href="../Html/crew.html" class="item"
+              ><span class="white-clr">02</span>CREW</a
+            >
+          </li>
+          <li class="list">
+            <a href="../Html/technology.html" class="item"
+              ><span class="white-clr">03</span>TECHNOLOGY</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section id="content">
+        <div class="left">
+          <h1 class="leftHeading gray-clr">
+            <span id="number" class="white-clr">01</span> Pick your destination
+          </h1>
+          <div class="imageContainer">
+            <img
+              src="../assets/destination/image-moon.png"
+              alt="Moon"
+              class="destImage"
+            />
+          </div>
+        </div>
+        <div class="right white-clr">
+          <ul class="destinationList gray-clr">
+            <li class="destList active1" data-article="moonArticle">MOON</li>
+            <li class="destList" data-article="marsArticle">MARS</li>
+            <li class="destList" data-article="europaArticle">EUROPA</li>
+            <li class="destList" data-article="titanArticle">TITAN</li>
+          </ul>
+          <div class="textContainer">
+            <div class="texts show" id="moonArticle">
+              <h3 class="planet bigText">MOON</h3>
+              <p class="planetDetails gray-clr">
+                Moon See our planet as you’ve never seen it before. A perfect
+                relaxing trip away to help regain perspective and come back
+                refreshed. While you’re there, take in some history by visiting
+                the Luna 2 and Apollo 11 landing sites.
+              </p>
+              <div class="distance flex">
+                <div class="km">
+                  <div class="sm-text gray-clr">Avg. distance</div>
+                  <div class="value">384,400 km</div>
+                </div>
+                <div class="days">
+                  <div class="sm-text gray-clr">Est. travel time</div>
+                  <div class="value">3 days</div>
+                </div>
+              </div>
+            </div>
+            <div class="texts" id="marsArticle">
+              <h3 class="planet bigText">MARS</h3>
+              <p class="planetDetails gray-clr">
+                Don’t forget to pack your hiking boots. You’ll need them to
+                tackle Olympus Mons, the tallest planetary mountain in our solar
+                system. It’s two and a half times the size of Everest!
+              </p>
+              <div class="distance flex">
+                <div class="km">
+                  <div class="sm-text gray-clr">Avg. distance</div>
+                  <div class="value">225 mil. km</div>
+                </div>
+                <div class="days">
+                  <div class="sm-text gray-clr">Est. travel time</div>
+                  <div class="value">9 months</div>
+                </div>
+              </div>
+            </div>
+            <div class="texts" id="europaArticle">
+              <h3 class="planet bigText">EUROPA</h3>
+              <p class="planetDetails gray-clr">
+                The smallest of the four Galilean moons orbiting Jupiter, Europa
+                is a winter lover’s dream. With an icy surface, it’s perfect for
+                a bit of ice skating, curling, hockey, or simple relaxation in
+                your snug wintery cabin.
+              </p>
+              <div class="distance flex">
+                <div class="km">
+                  <div class="sm-text gray-clr">Avg. distance</div>
+                  <div class="value">628 mil. km</div>
+                </div>
+                <div class="days">
+                  <div class="sm-text gray-clr">Est. travel time</div>
+                  <div class="value">3 years</div>
+                </div>
+              </div>
+            </div>
+            <div class="texts" id="titanArticle">
+              <h3 class="planet bigText">TITAN</h3>
+              <p class="planetDetails gray-clr">
+                The only moon known to have a dense atmosphere other than Earth,
+                Titan is a home away from home (just a few hundred degrees
+                colder!). As a bonus, you get striking views of the Rings of
+                Saturn.
+              </p>
+              <div class="distance flex">
+                <div class="km">
+                  <div class="sm-text gray-clr">Avg. distance</div>
+                  <div class="value">1.6 bil. km</div>
+                </div>
+                <div class="days">
+                  <div class="sm-text gray-clr">Est. travel time</div>
+                  <div class="value">7 years</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

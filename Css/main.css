@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* ...............  Utility Classes ................... */
+.white-clr {
+  color: white;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  transform: scale(1.06);
+}
+
+.active1 {
+  border-bottom: 2px solid white;
+  transform: scale(1.03);
+}
+
+.gray-clr {
+  color: rgba(202, 202, 202, 0.808);
+}
+
+.flex {
+  display: flex;
+}
+
+.bigText {
+  font-size: 4rem;
+}
+/* ...............  Navbar Styling ................... */
+
+#navbar {
+  /* background-color: red; */
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.navList {
+  display: flex;
+  position: relative;
+  padding: 0 2em;
+
+  /* Glass effect */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  /* background-color: green; */
+}
+
+.navList::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -65%;
+  height: 2px;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+.list {
+  margin: 0 10px;
+  list-style-type: none;
+  /* background-color: black; */
+}
+
+.item {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(204, 202, 202);
+  /* background-color: aliceblue; */
+  padding: 0 6px;
+  display: block;
+  min-height: 100%;
+  padding: 2rem 0;
+}
+
+.item span {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* ............. Content Styling ................... */
+
+#content {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+  padding: 2em;
+  height: calc(100% - 7rem);
+}
+
+.left {
+  /* background-color: aqua; */
+  padding: 1rem 5rem;
+  color: white;
+}
+.right {
+  /* background-color: green; */
+}

@@ -1,0 +1,10 @@
+/* ...............  Header Styling ................... */
+
+#container {
+  height: 100svh;
+  width: 100%;
+  position: fixed;
+  background: url(../assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
